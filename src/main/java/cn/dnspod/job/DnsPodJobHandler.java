@@ -60,7 +60,7 @@ public class DnsPodJobHandler implements Job {
         // 获取所有的域名
         List<DomainPO> domains = domainService.findDomainByEnable();
 
-        logger.error("共获取{}个域名");
+        logger.error("共获取{}个域名", domains.size());
 
         if (Utils.isEmpty(domains)) {
             return;

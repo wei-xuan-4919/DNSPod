@@ -63,5 +63,10 @@ public class DnsPodConstant {
     /**
      * 动态域名解析的token
      */
-    public static final String DNS_POD_TOKEN = "DNS_POD_TOKEN";
+    public static final String DNS_POD_TOKEN = "token";
+
+    /**
+     * 任务cron表达式
+     */
+    public static final String DNS_POD_CRON = "cron";
 }
