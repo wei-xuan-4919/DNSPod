@@ -3,7 +3,6 @@ server:
   port: 8081
   tomcat:
     uri-encoding: UTF-8
-  # 打包需要注释掉
   servlet:
     context-path: /dnspod
 spring:
@@ -12,7 +11,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///dnspod?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
-    password: 775957025
+    password: 123456
   # JSON 返回的时间格式  yyyy-MM-dd HH:mm:ss
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
