@@ -77,6 +77,17 @@ CREATE TABLE `dns_pod_log` (
 
 ### 2.运行项目
 通过maven打包，打包成war包，放到tomcat的**webapps**路径下，运行tomcat服务器，即可运行项目。
+
 访问地址：`http://localhost:8080/dnspod`
+
 页面效果展示：
 ![](https://raw.githubusercontent.com/wei-xuan-4919/DNSPod/master/images/index.png)
+
+### 3.创建DNSPod Token 
+在 dnspod 的管理界面https://console.dnspod.cn/account/token#  创建API Token，
+
+![](https://raw.githubusercontent.com/wei-xuan-4919/DNSPod/master/images/%E7%94%B3%E8%AF%B7token.png)
+
+创建成功后获得ID和Token，将ID和Token以**逗号**隔开的方式，在页面的域名配置中填入Token的输入框中保存。
+
+![](https://raw.githubusercontent.com/wei-xuan-4919/DNSPod/master/images/%E4%BF%9D%E5%AD%98Token%E9%85%8D%E7%BD%AE.png)
