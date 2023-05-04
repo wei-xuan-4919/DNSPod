@@ -93,7 +93,7 @@ CREATE TABLE `dns_pod_log` (
 ![](https://raw.githubusercontent.com/wei-xuan-4919/DNSPod/master/images/%E4%BF%9D%E5%AD%98Token%E9%85%8D%E7%BD%AE.png)
 
 ### 4.创建域名
-在域名列表中填写DNSPod中所购买的域名（例如：test.cn），点击子域名，创建子域名（例如：www）,则系统每隔三小时(默认三小时，可以通过域名配置中的Cron表达式修改定时器的时间)会自动获取当前公网IP地址，对比记录的域名（例如：www.test.cn）的IP地址是否一致，如不一致则自动更新。
+在域名列表中填写DNSPod中所购买的域名（例如：test.cn），点击子域名，创建子域名（例如：www）,则系统每隔三小时(默认三小时，可以通过域名配置中的Cron表达式修改定时器的时间)会自动获取当前公网IP地址，对比记录的域名（例如：www.test.cn ）的IP地址是否一致，如不一致则自动更新。
 
 ![](https://raw.githubusercontent.com/wei-xuan-4919/DNSPod/master/images/domain.png)
 
