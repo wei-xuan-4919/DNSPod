@@ -97,6 +97,7 @@
     </dependencies>
 
     <build>
+        <finalName>dnspod</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
